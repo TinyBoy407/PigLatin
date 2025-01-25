@@ -28,6 +28,7 @@ public int findFirstVowel(String sWord)
     else if(sWord.substring(i,i+1).equals("u")){
       return i;
     }
+  }
   return -1;
 }
 
